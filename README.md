@@ -1,4 +1,4 @@
-![image](https://github.com/muhmiqbal19/data-wrangling-and-analysis-with-sql/assets/132751713/15af5563-b099-4611-9189-bf3f872cdba6)# Data Wrangling and Analysis With SQL
+# Data Wrangling and Analysis With SQL
 
 ### Project Overview
 So, here is a dataset of the website of a company I might work for, just call it **“imaginary store”**. They have some items which can be viewed and hopefully purchased by the users. 
@@ -29,4 +29,4 @@ EDA involved exploring user activity data and sales data to answer key questions
 5. How many times do users re-order an item from a specific category?
 6. How long between orders and re-orders?
 
-Question 1 answered with [Users Growth] 
+Question 1 answered with [Users Growth](data-wrangling-and analysis-with-sql/Users Growth.sql)
