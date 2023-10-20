@@ -29,4 +29,4 @@ EDA involved exploring user activity data and sales data to answer key questions
 5. How many times do users re-order an item from a specific category?
 6. How long between orders and re-orders?
 
-Question 1 answered with [Users Growth](data-wrangling-and analysis-with-sql/Users Growth.sql)
+Question 1 answered with [Users Growth](Users%20Growth.sql)
