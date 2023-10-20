@@ -32,9 +32,9 @@ EDA involved exploring user activity data and sales data to answer key questions
 6. How long between orders and re-orders?
 
 In order answering questions, we analyse:
-- [Users Growth](users-growth.sql) to answer question 1
-- [Rolling Orders](rolling-orders.sql) to answer question 2
-- [Promo Email](promo-email.sql) to respone idea 3
+- [Users Growth](users-growth-analysis.sql) to answer question 1
+- [Rolling Orders](rolling-orders-analysis.sql) to answer question 2
+- [Promo Email](promo-email-analysis.sql) to respone idea 3
 - [Product Analysis](product-analysis.sql) to answer question 4, 5, & 6
 
 ## Data Analysis
