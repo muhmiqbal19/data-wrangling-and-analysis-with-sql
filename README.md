@@ -1,4 +1,7 @@
 # Data Wrangling and Analysis With SQL
+## Table of Content
+- [Project Overview](#project-overview)
+- [Dataset Entity Relationship Diagram (ERD)](#dataset-entity-relationship-diagram-erd)
 
 ## Project Overview
 So, here is a dataset of the website of a company I might work for, just call it **“imaginary store”**. The data extracted from January 1, 2013 to June 1, 2018. They have some items which can be viewed and hopefully purchased by the users. 
@@ -58,10 +61,10 @@ In order answering questions, we analyse:
 <img width="500" alt="image" src="https://github.com/muhmiqbal19/data-wrangling-and-analysis-with-sql/assets/132751713/f118bdee-f91e-4f4d-8879-84e2ca3bc262">
 
 ### Result
-1. Today, we have acquired 96 users. However, 3 users have been deleted and 2 users have been merged. So, we have 91 net added users today. This number is 6.19% lower than yesterday.
-2. Today, we have 4 orders with 11 items ordered, we are in the trench but still stable in 7 days rolling orders.
+1. Today, we have acquired 96 users. However, 3 users have been deleted and 2 users have been merged. So, we have 91 net-added users today. This number is 6.19% lower than yesterday.
+2. Today, we have 4 orders with 11 items ordered, we are in the trench but still stable in 7 days of rolling orders.
 3. We have 146 users who recently viewed an item this year and have not placed an order yet. 
-4. Users order device storage unit 1,1 times on average. People tend to look for another products for second items.
+4. Users order the device storage unit 1,1 times on average. People tend to look for another product for second items.
 5. Users order apparatus 2,4 times on average. Whenever people order apparatus, they tend to buy multiple items from that category.
 6. Times between order and reorder vary from 0 to 197 days. The majority of our users' behavior is reordering in less than 1 month, there also in 1-3 months, the others reorder for 3 to 7 months.
 
@@ -69,6 +72,9 @@ In order answering questions, we analyse:
 1. Invest in sales and marketing during the peak of users added to increase revenue.
 2. We are in a safe sales position as long as rolling orders are still stable. Instead of worrying about the local trench, we should increase marketing during peak sales season to increase rolling orders.
 3. We should email people a picture of what they looked at most recently! Probably it will be a reason for them to come back to our site and place an order.
-4. We sould increase product diversity to increase revenue.
+4. We should increase product diversity to increase revenue.
 5. While people are in the middle of ordering apparatus, we will recommend other apparatus to them. This might cause they are not to order it in second time on a different date but they might potentially add it to their order.
 6. We can recommend the other product in the same category as the last items they ordered.
+
+### Limitation
+This data wrangling and analysis project is totally conducted in SQL which is poor in visualizations except for exporting the file and then visualizing in Tableau, Power BI, etc. Therefore we only provide data visualization in a separate way not in one dashboard.
