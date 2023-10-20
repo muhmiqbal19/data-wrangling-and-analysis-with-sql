@@ -2,6 +2,13 @@
 ## Table of Content
 - [Project Overview](#project-overview)
 - [Dataset Entity Relationship Diagram (ERD)](#dataset-entity-relationship-diagram-erd)
+- [Tools](#tools)
+- [Data Cleansing](#data-cleansing)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Data Analysis](#data-analysis)
+- [Result](#result)
+- [Recommendation](#recommendation)
+- [Limitation](#limitation)
 
 ## Project Overview
 So, here is a dataset of the website of a company I might work for, just call it **“imaginary store”**. The data extracted from January 1, 2013 to June 1, 2018. They have some items which can be viewed and hopefully purchased by the users. 
