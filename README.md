@@ -11,9 +11,9 @@
 - [Limitation](#limitation)
 
 ## Project Overview
-So, here is a dataset of the website of a company I might work for, just call it **“imaginary store”**. The data extracted from January 1, 2013 to June 1, 2018. They have some items which can be viewed and hopefully purchased by the users. 
+So, here is a dataset of the website of a company I might work for, just call it **“imaginary store”**. The data was extracted from January 1, 2013 to June 1, 2018. They have some items which can be viewed and hopefully purchased by the users. 
 
-In order to purchase an item, a visitor must first create an account be logged in and then add the item to their cart and then check out.
+To purchase an item, a visitor must first create an account be logged in, add the item to their cart, and then check out.
 
 This data analysis project aims to provide insight into the sales, marketing, and product performance of an e-commerce company over the current year. By analyzing the various aspects of user activity and sales data, we seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance. 
 
@@ -41,10 +41,10 @@ EDA involved exploring user activity data and sales data to answer key questions
 5. How many times do users re-order an item from a specific category?
 6. How long between orders and re-orders?
 
-In order answering questions, we analyse:
+To answer questions, we analyze:
 - [Users Growth](users-growth-analysis.sql) to answer question 1
 - [Rolling Orders](rolling-orders-analysis.sql) to answer question 2
-- [Promo Email](promo-email-analysis.sql) to respone idea 3
+- [Promo Email](promo-email-analysis.sql) to response idea 3
 - [Product Analysis](product-analysis.sql) to answer question 4, 5, & 6
 
 ## Data Analysis
@@ -84,4 +84,4 @@ In order answering questions, we analyse:
 6. We can recommend the other product in the same category as the last items they ordered.
 
 ### Limitation
-This data wrangling and analysis project is totally conducted in SQL which is poor in visualizations except for exporting the file and then visualizing in Tableau, Power BI, etc. Therefore we only provide data visualization in a separate way not in one dashboard.
+This data wrangling and analysis project is conducted in SQL which is poor in visualizations except for exporting the file and then visualizing in Tableau, Power BI, etc. Therefore we only provide data visualization in a separate way not in one dashboard.
